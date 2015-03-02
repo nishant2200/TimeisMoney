@@ -21,7 +21,7 @@ namespace TimeIsMoney
 
             routes.MapRoute(
                 name: "Hello",
-                url: "{controller}/{action}/{name}/{id}"
+                url: "{controller}/{action}/{parameters}"
                 );
         }
     }
